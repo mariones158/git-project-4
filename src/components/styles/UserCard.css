@@ -1,0 +1,76 @@
+.user{
+    width: 100%;
+    max-width: 17em;
+    border-radius: 0.8em;
+    border:0.1em solid #aaa5;
+    padding: 1.5em 1em 2em;
+    box-shadow: 2px 2px 2px 4px #2d2d2d;
+    background-color: #afe1c063;
+}
+
+.user__name{
+    font-size: 1.1em;
+    font-weight: 800;
+    background-color: #b6b6ae26;
+    color: #1b1c1c;
+    padding-bottom: 0.2em;
+    text-align: center;
+    border-radius: 0.3em;
+}
+.user__line{
+    margin-top: 1.6em;
+    margin-bottom: 0.6em;
+    border-color: #aaaaaa22;
+}
+
+.content__list{
+    display: grid;
+    gap: 0.7em;
+    margin-bottom: 1.2em;
+}
+
+.user__item{
+    display: grid;
+    gap:0.2em;
+    padding-top: 1em;
+}
+
+.span__label{
+    font-size: 0.9em;
+    font-weight:600;
+    color: #484747;
+    text-transform: uppercase;
+}
+
+.span__value{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.cont__footer{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    
+}
+
+.user__btn{
+    font-size: 1.2em;
+    width: 2.2em;
+    aspect-ratio: 1;
+    border-radius: 0.5em;
+    color: white;
+    &:hover{
+        filter: brightness(1.2);
+    }
+}
+
+.user__delete{
+    background-color: rgb(208, 6, 6);
+}
+
+.user__edit{
+    background-color: #7c7a7a;
+}
+
+
